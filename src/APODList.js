@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import APODCard from "./APODCard";
 
 const APODList = () => {
 
@@ -13,7 +14,7 @@ const APODList = () => {
         .catch(err => console.log("ERROR", err));
     }, []);
     return (
-    <div></div>
+    <div><APODCard /></div>
     )
 };
 
