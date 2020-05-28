@@ -1,8 +1,10 @@
 import React from "react";
 
-const APODCard = props => {
+const APODCard = ({ picture }) => {
     return (
-        <div>{props.hdurl}</div>
+        <div className="picture-list">
+            <h2>{picture.title}</h2>
+        </div>
     )
 }
 
