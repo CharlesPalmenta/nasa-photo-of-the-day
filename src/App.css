@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.card-box1{
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  background: lightgray;
+}
+.card-box{
+  color: black;
+  background: gray;
+}

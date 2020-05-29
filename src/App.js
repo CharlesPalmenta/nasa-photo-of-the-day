@@ -10,6 +10,9 @@ function App() {
       <div className="logo_container">
         <img className="logo" src={logo192} alt="atom graphic" />
         <h1>NASA Picture of the Day</h1>
+        
+      </div>
+      <div>
         <APODList />
       </div>
       
