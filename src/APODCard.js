@@ -11,7 +11,7 @@ const APODCard = props => {
                     <CardTitle className="card-box1">{props.title}</CardTitle>
                     <CardSubtitle className="card-box">{props.date}</CardSubtitle>
                     <CardText className="card-box">{props.explanation}</CardText>
-                    <CardText className="card-box">{props.copyright}</CardText>
+                    <CardText className="card-box2">{props.copyright}</CardText>
                 </CardBody>
 
             </Card>
